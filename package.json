@@ -1,0 +1,35 @@
+{
+  "name": "mowaac-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express-fileupload": "^1.2.0",
+    "multer": "^1.4.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "adm-zip": "^0.5.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "jest": "^26.6.3",
+    "jszip": "^3.5.0",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktorOster/mowaac-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViktorOster/mowaac-test/issues"
+  },
+  "homepage": "https://github.com/ViktorOster/mowaac-test#readme"
+}
